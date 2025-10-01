@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="NovaPasta1\" />
+    <Folder Include="NovaPasta\" />
+  </ItemGroup>
+
 </Project>
