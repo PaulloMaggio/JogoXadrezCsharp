@@ -18,6 +18,7 @@ namespace jogoXadrez
                     Console.Clear();
                     Tela.imprimirTabuleiro(partida.tab);
 
+                    Console.WriteLine();
                     Console.Write("Digite a posição de origem: ");
                     Posicao origem = Tela.lerPosicaoXadrez().toPosicao();
                     Console.Write("Digite a posição de destino: ");
