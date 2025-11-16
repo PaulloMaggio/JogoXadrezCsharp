@@ -1,7 +1,7 @@
-﻿using jogoXadrez.xadrez;
+﻿using xadrez;
 using System;
 using tabuleiro;
-using xadrez;
+
 
 namespace jogoXadrez
 {
@@ -34,7 +34,7 @@ namespace jogoXadrez
                         Console.WriteLine();
                         Console.Write("Digite a posição de destino: ");
                         Posicao destino = Tela.lerPosicaoXadrez().toPosicao();
-                        partida.validarPosicaoDestino(origem, destino);
+                        partida.validarPosicaoDeDestino(origem, destino);
 
                         partida.realizaJogada(origem, destino);
                     }

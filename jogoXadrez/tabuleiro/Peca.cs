@@ -33,18 +33,18 @@
             return false;
         }
 
-        public bool podeMoverPara(Posicao pos)
+        public bool movimentoPossivel(Posicao pos)
         {
             return movimentosPossiveis()[pos.linha, pos.coluna];
         }
         
         
-        public void incrementarQtdMovimentos()
+        public void incrementarQteMovimentos()
         {
             qteMovimentos++;
         }
 
-        public void decrementarQtdMovimentos()
+        public void decrementarQteMovimentos()
         {
             qteMovimentos--;
         }

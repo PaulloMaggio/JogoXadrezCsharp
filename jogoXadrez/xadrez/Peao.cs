@@ -1,4 +1,4 @@
-﻿using jogoXadrez.xadrez;
+﻿using xadrez;
 using tabuleiro;
 
 namespace xadrez
